@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.pt
+*.pth
+*.ckpt
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+/data/
+/dataset/
+/checkpoints/
+/weights/
