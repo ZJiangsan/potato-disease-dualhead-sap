@@ -1,0 +1,14 @@
+# Environment used for the revision analyses (versions may differ by platform)
+python>=3.8
+torch==2.1.2
+torchvision
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python
+albumentations
+matplotlib
+Pillow
+# Optional compute profiling
+thop
