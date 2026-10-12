@@ -1,6 +1,6 @@
 # Dual-Head CNN–Transformer and Segmentation-Aware Pooling for Potato Tuber Disease Phenotyping
 
-**Research code and archived results for manuscript PBT-D-26-00881, *Postharvest Biology and Technology*.**
+**Research code and a prepared results archive for manuscript PBT-D-26-00881, *Postharvest Biology and Technology*.**
 
 This repository documents an eight-class potato tuber image classification and lesion segmentation study. The primary experiment is a stratified group-aware **five-fold cross-validation** on **421 annotated images**. Seven baseline/model variants and a separate early-lesion-masking experiment are evaluated; the Hybrid and SAP variants are repeated over three seeds. The code also records quantitative Grad-CAM localization, lesion/background occlusion, test-time augmentation sensitivity, paired tests, and inference complexity estimates.
 
@@ -49,3 +49,5 @@ Manuscript **PBT-D-26-00881** is under revision. No DOI, publication acceptance,
 ## Authors and correspondence
 
 Author order, institutional affiliations, manuscript correspondence (Wenzhong Wang), and journal submission correspondence (handled by Jiangsan Zhao) should follow the final journal-approved manuscript. Submission-system contact does not by itself replace the manuscript corresponding-author designation.
+
+> **Upload status (2026-10-12):** The source scripts and documentation have been committed. The generated per-image CSVs, fold assignments, and figure files from the downloadable starter ZIP are not yet uploaded to this GitHub repository. Do not treat the hosted repository as a complete reproducibility archive until these are added.
